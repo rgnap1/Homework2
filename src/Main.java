@@ -51,6 +51,8 @@ public class Main {
         System.out.println ("Общий вес двух боксеров " + theTotalWeightOfBoxers + " кг! ");
         var theBoxersWeightDifference = theWeightABoxerOne -  theWeightABoxerTwo;
         System.out.println (" Разница между весом боксеров " + theBoxersWeightDifference + " кг! ");
+
+
         var boxersWeightDifference  = theWeightABoxerTwo- theWeightABoxerOne;
         System.out.println ("Вес второго боксера больше на " + boxersWeightDifference + " кг! ");
         var overload = theWeightABoxerTwo % theWeightABoxerOne ;
