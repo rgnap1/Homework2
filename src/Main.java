@@ -5,17 +5,23 @@ public class Main {
         //task1
 
         var dog = 8.0;
+        System.out.println (dog);
         dog = dog+4;
+        System.out.println (dog);
         dog = dog-3.5;
         System.out.println (dog);
 
         var cat = 3.6;
+        System.out.println (cat);
         cat = cat+4;
+        System.out.println (cat);
         cat = cat-1.6;
         System.out.println (cat);
 
         var paper = 763789;
+        System.out.println (paper);
         paper = paper+4;
+        System.out.println (paper);
         paper = paper-7639;
         System.out.println (paper);
 
@@ -47,6 +53,29 @@ public class Main {
         System.out.println (" Разница между весом боксеров " + theBoxersWeightDifference + " кг! ");
         var boxersWeightDifference  = theWeightABoxerTwo- theWeightABoxerOne;
         System.out.println ("Вес второго боксера больше на " + boxersWeightDifference + " кг! ");
+        var overload = theWeightABoxerTwo % theWeightABoxerOne ;
+        System.out.println(" Разница в весе боксеров " + overload + "кг!");
+
+        var totalHours = 640;
+        System.out.println (totalHours);
+        var hoursPerWorker = 8;
+        System.out.println (hoursPerWorker);
+        var amountOfWorkers = totalHours/hoursPerWorker;
+        System.out.println ( "Всего работников в компании " + amountOfWorkers );
+        var moreWorker = 94;
+        System.out.println(moreWorker);
+        var increasedNumberOfWorkers = amountOfWorkers + moreWorker;
+        System.out.println(increasedNumberOfWorkers);
+        var newPerWorker = totalHours/increasedNumberOfWorkers;
+        System.out.println( " Если в компании работает " + increasedNumberOfWorkers + " человека, то всего " + newPerWorker + " часа работы может быть поделено между сотрудниками " );
+
+
+
+
+
+
+
+
 
 
 
